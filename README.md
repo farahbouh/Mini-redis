@@ -1,11 +1,11 @@
 <div align="center">
 
-# -redis
+# Mini-redis
 
 **Serveur clé-valeur TCP multithread, écrit en C++**
 
 ![Status](https://img.shields.io/badge/status-fonctionnel-brightgreen)
-![Dernière mise à jour](https://img.shields.io/github/last-commit/farahbouh/-redis?label=derni%C3%A8re%20mise%20%C3%A0%20jour)
+![Dernière mise à jour](https://img.shields.io/github/last-commit/farahbouh/Mini-redis?label=derni%C3%A8re%20mise%20%C3%A0%20jour)
 ![C++](https://img.shields.io/badge/C%2B%2B-17-00599C?logo=c%2B%2B&logoColor=white)
 ![Linux](https://img.shields.io/badge/plateforme-Linux-FCC624?logo=linux&logoColor=black)
 
@@ -51,10 +51,10 @@ Le projet a été conçu pour explorer les mécanismes de communication réseau,
 Il vous faut un compilateur C++17 (`g++`), `make`, et `netcat` pour tester.
 
 ```bash
-git clone https://github.com/farahbouh/-redis
-cd -redis
+git clone https://github.com/farahbouh/Mini-redis
+cd Mini-redis
 make
-./-redis
+./Mini-redis
 ```
 
 Le serveur écoute sur le port 8080.
